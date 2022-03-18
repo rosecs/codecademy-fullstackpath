@@ -1,0 +1,141 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* Header */
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  opacity: 1;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  list-style-type: none;
+}
+
+li {
+  float: right;
+  font-size: 22px;
+}
+
+li a {
+  color: seashell;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+  color: rgb(115, 115, 117);
+}
+
+#logo img {
+  float: left !important;
+  left: 10px;
+  height: 50px;
+}
+
+/* Mission*/
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 700px;
+  max-width: 1200px;
+  background-image: url("../assets/img-mission-background.webp");
+}
+
+.text-mission {
+  background-color: black;
+  width: 100%;
+}
+
+/* Featured Tea Section */
+#featured-tea {
+  max-width: 1000px;
+  margin: 75px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.tea-item {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+.tea-item img {
+  width: 100%;
+  height: auto;
+}
+
+.container h4 {
+  margin-top: 10px;
+}
+
+#location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/img-locations-background.webp);
+  background-position: top 50%;
+  background-size: cover;
+  margin: 0 auto;
+  height: 500px;
+  max-width: 1200px;
+}
+
+#location h2 {
+  margin-top: 200px;
+  background-color: transparent;
+}
+
+.locations-container {
+  background-color: transparent;
+}
+
+.location-item-container {
+  display: inline-block;
+  opacity: 1;
+  width: 300px;
+  margin: 15px 20px;
+}
+
+.location-item-container h3,
+.location-item-container p {
+  padding: 7px;
+}
+
+footer {
+  margin-bottom: 80px;
+}
+
+.contact {
+  margin: 40px auto;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
