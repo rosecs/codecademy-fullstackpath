@@ -13,7 +13,17 @@ li {
 }
 
 .solo-container {
-  display:flex
+  display:flex;
+  background-color: blueviolet;
+}
+.container-4{
+  display: flex;
+  height: 400px ;
+  background-color:aqua ;
+}
+.container-row{
+  display: inline-flex;
+  background-color:blue ;
 }
 h1{
   font-size:50px;
